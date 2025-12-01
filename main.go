@@ -10,7 +10,7 @@ func helloHandler(w http.ResponseWriter, r *http.Request) {
 	if name == "" {
 		name = "Guest"
 	}
-	fmt.Fprintf(w, "Hello %s", name)
+	fmt.Fprintf(w, "Fuck %s", name)
 }
 
 func main() {
